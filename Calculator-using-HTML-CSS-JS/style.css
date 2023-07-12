@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  margin-bottom: 7px;
+  font-size: 33px;
+  font-style: italic;
+  color: aliceblue;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#0a0a0a, #3a4452);
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  border: 1px solid #717377;
+  border-radius: 16px;
+  padding: 20px;
+  align-content: center;
+}
+.button{
+  width: 66px;
+  height: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  font-size: large;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  color:#ffff;
+  cursor: pointer;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.09);
+}
+.buttonequ{
+  width: 66px;
+  height: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  font-size: large;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  color:#030000;
+  cursor: pointer;
+  background-color: #fb7c14;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.09);
+}
+.buttonop{
+  width: 66px;
+  height: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  font-size: large;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  color:#fb7c14;
+  cursor: pointer;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.09);
+}
+.row{ 
+  margin: 8px 0; 
+}
+.row input{
+  width: 290px;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px 0px;
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+  text-align: right;
+  color: #fff;
+}
+input::placeholder{
+  color: #ffff;
+}
